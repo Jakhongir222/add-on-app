@@ -1,0 +1,54 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+  
+  .employee-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .employee-card img {
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .employee-card p {
+    margin: 10px;
+  }
+  
+  .employee-card form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .employee-card form input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+  }
+  
+  .employee-card form button {
+    background-color: #008080;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 8px;
+  }
+  
